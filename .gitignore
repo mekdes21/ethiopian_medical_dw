@@ -1,19 +1,19 @@
 # Python
-venv/                  # Python virtual environment
-__pycache__/           # Python bytecode cache
-*.pyc                  # Compiled Python files
-*.pyo                  # Optimized Python files
-*.pyd                  # Python dynamic modules
-*.egg-info/            # Python package metadata
-dist/                  # Distribution folders
+venv/                  
+__pycache__/           
+*.pyc                  
+*.pyo                  
+*.pyd                  
+*.egg-info/            
+dist/                  
 build/                
 
 # Data
-data/raw/              # Raw scraped data (can be regenerated)
+data/raw/              
 *.csv
 photos
 # Logs
-logs/                  # Log files (can be regenerated)
+logs/                  
 
 # DBT
 dbt/target/            # DBT compilation artifacts
@@ -33,3 +33,10 @@ dbt/logs/              # DBT logs
 # System files
 .DS_Store              # macOS folder attributes
 Thumbs.db              # Windows thumbnail cache
+# Virtual environment
+venv/
+env/
+.venv/
+env.bak/
+data/
+*.log
