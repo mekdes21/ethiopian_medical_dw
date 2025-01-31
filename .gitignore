@@ -1,0 +1,35 @@
+# Python
+venv/                  # Python virtual environment
+__pycache__/           # Python bytecode cache
+*.pyc                  # Compiled Python files
+*.pyo                  # Optimized Python files
+*.pyd                  # Python dynamic modules
+*.egg-info/            # Python package metadata
+dist/                  # Distribution folders
+build/                
+
+# Data
+data/raw/              # Raw scraped data (can be regenerated)
+*.csv
+photos
+# Logs
+logs/                  # Log files (can be regenerated)
+
+# DBT
+dbt/target/            # DBT compilation artifacts
+dbt/dbt_packages/      # DBT dependencies
+dbt/logs/              # DBT logs
+
+# Environment variables
+.env                   # Local environment variables
+.secrets               # Sensitive credentials
+
+# IDE and Editor files
+.vscode/               # Visual Studio Code settings
+.idea/                 # JetBrains IDE settings
+*.swp                  # Vim swap files
+*.swo                  # Vim swap files
+
+# System files
+.DS_Store              # macOS folder attributes
+Thumbs.db              # Windows thumbnail cache
